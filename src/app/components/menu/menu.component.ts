@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
-
+  rutas=[
+    {
+      nombre:'Home',
+      destino: '/home'
+    },
+    {
+      nombre:'Contacto',
+      destino:'/contacto'
+    },
+    {
+      nombre:'Ayuda',
+      destino:'/ayuda'
+    }
+  ]
 }
